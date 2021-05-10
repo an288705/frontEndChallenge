@@ -2,7 +2,7 @@ import React, { useEffect, useReducer } from "react";
 import NominationsScreen from "./nominations/NominationsScreen";
 import SearchScreen from "./search/SearchScreen";
 import { Route, Switch } from "react-router";
-import { initialState, reducer } from "../../reducer/reducer";
+import { initialState, reducer} from "../../reducer/reducer";
 import apikey from "../../apikey"
 
 export default function Main() {
@@ -85,7 +85,7 @@ export default function Main() {
             removeNomination={removeNomination}
           />
         </Route>
-        <Route exact path="/">
+        <Route exact path="/shopifyFrontEndChallenge">
           <SearchScreen
             movies={state.movies}
             submitHandle={submit}

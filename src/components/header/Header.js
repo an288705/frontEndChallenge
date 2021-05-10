@@ -6,7 +6,7 @@ export default function Menu() {
     <header className="header">
       <ul className="menu">
         <li className="menut__item">
-          <NavLink activeClassName="menut__active-item" to="/">
+          <NavLink activeClassName="menut__active-item" to="/shopifyFrontEndChallenge">
             Home
           </NavLink>
         </li>
