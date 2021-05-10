@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: #050101;
+  font-family: Arial;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  background-color: #6d6e01d5;
+  padding: 0.5em;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.menu a {
+  text-decoration: none;
+  color: #b1b4ba;
+  padding: 1em;
+}
+.main {
+  min-height: 90vh;
+  margin: 1em;
+}
+.btn {
+  border-radius: 5px;
+  height: 32px;
+  min-width: 100px;
+  color: #000000;
+  line-height: 30px;
+  padding: 0 12px;
+  text-align: center;
+  margin: 5px 5px 5px 0;
+}
+.movie{
+  align-self: center;
+  justify-self: center;
+}
+.movieTitle {
+  font-size: small;
+  max-width: 200px;
+}
+.movieReleaseDate {
+  font-size: x-small;
+}
+.nominations {
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.warning-wrapper {
+  height: 1em;
+}
+.warning {
+  color: #9be86b;
+  text-align: center;
+}
+.nominations-header{
+  text-align: center;
+}
+.error {
+  color: #9be86b;
+  margin: 2em 0;
+  text-align: center;
+}
+.form__text-input {
+  width: 200px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 50px;
+  margin: 0 1em;
+  color: black;
+}
+.form__text-input:focus {
+  color: black;
+}
+.image {
+  max-width: 200px;
+  height: auto;
+}
+.search-results{
+  margin: auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
