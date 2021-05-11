@@ -85,7 +85,7 @@ export default function Main() {
             removeNomination={removeNomination}
           />
         </Route>
-        <Route exact path="/shopifyFrontEndChallenge">
+        <Route exact path="/frontEndChallenge">
           <SearchScreen
             movies={state.movies}
             submitHandle={submit}
